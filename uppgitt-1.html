@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silicon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="uppgift-1.css">
+    <link rel="stylesheet" href="uppgift-1.js">
+</head>
+<body>
+
+    <nav class="main-nav" aria-label="main navigation">
+      <a href="#main" class="skip-link">skip to main content</a>
+
+        <div class="container space-y-3">
+            <a href="#">
+              <img class="show-light" src="images/silicon-logotype.svg" alt="Silicon logotype">
+              <img class="show-dark" src="images/silicon-logotype.svg" alt="Silicon logotype">
+            </a>
+
+          <div class="darkmode-toggle">
+            <p>Dark Mode</p>
+            <label class="toggle">
+                <input type="checkbox" id="darkmode-switch">
+                <span class="slider"></span>
+            </label>
+          </div>
+
+          <button class="menu-btn" aria-controls="main-menu" aria-expanded="false" aria-label="toggle navigation">
+            <img src="images/Btn - Toggle.svg" alt="">
+          </button>
+
+          <ul id="main-menu" class="main-menu hide">
+              <li>
+                <a href="#" class="nav-link">Features</a>
+              </li>
+              <li>
+                <a href="#" class="btn btn-primary">
+                    <img class="user-icon" src="images/icon-user.svg" alt="">
+                    <span>Sign in / up</span>
+                </a>
+              </li>  
+          </ul>
+
+
+        </div>
+    </nav>
+    <main id="main">
+
+     <section aria-label="showcase" class="showcase">
+      <div class="container" >
+        <h1 class="d4"> Manage All Your Money in One App</h1>
+        <div class="content">
+          <p clas="text-lg"> We offer you a new generation of the mobile banking.
+            Save, spend & manage money in your pocket.</p>
+         <div class="market-btns">
+          <a href="#" class="store-btn">
+            <img src="images/appstore-1.svg" alt="">
+          <!-- <img src="images/Link-app1.svg" alt=""> -->
+          </a>
+          <a href="#" class="store-btn">
+            <img src="images/googleplay-1.svg" alt="">
+        <!-- <img class="show-dark" src="images/Link-app2.svg" alt=""> -->
+          </a>
+         </div>
+
+         <div class="market-btns-dark">
+          <a href="#" class="store-btn-dark">
+            <img src="images/Light.svg" alt="">
+          <!-- <img src="images/Link-app1.svg" alt=""> -->
+          </a>
+          <a href="#" class="store-btn-dark">
+             <img class="store-img" src="images/Light1.svg" alt="">
+        <!-- <img class="show-dark" src="images/c.svg" alt=""> -->
+          </a>
+         </div>
+
+         <div class="more">
+           <a href="#features" class=" btn-round btn-white">
+             <img src="/images/car-ik.svg" alt="icon-btn">
+           </a>
+           <span>Discover more</span>
+          </div>
+        </div>
+
+          <div class="phone-img-container">
+           <img src="images/tab-img.svg" alt="two iphones with the creditcard on the screen">
+          </div>
+        
+        
+      </div>  
+
+    </section>
+
+    <section aria-label="our customers" class="logos">
+      <div class="container-logos">
+          <div class="logo-section">
+            <img src="images/logos-logo1.svg" alt="Logo 1">
+          </div>
+          <div class="logo-section">
+            <img src="images/logos-logo2.svg" alt="Logo 2">
+          </div>
+          <div class="logo-section">
+            <img src="images/logos-logo3.svg" alt="Logo 3">
+          </div>
+          <div class="logo-section">
+            <img src="images/logos-logo4.svg" alt="Logo 4">
+          </div>
+
+            
+          <div class="logo-section">
+            <img src="images/logos-logo5.svg" alt="Logo 5">
+          </div>
+
+          <div class="logo-section">
+            <img src="images/logos-logo6.svg" alt="Logo 6">
+          </div>
+      </div>
+          
+   </section>
+
+   <section aria-label="App Features" class="features">
+     <div class="container-app">
+      <div class="iphone">
+        <img src="images/iphone1.svg" alt="an iphone with a creditcard popping out">
+      </div>
+      <div class="text space-y-2">
+        <h2 class="h1">App features</h2>
+        <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+        
+        <div class="features-grid"> 
+
+          <div class="features-card flex">
+            <div class="icon-container">
+              <img src="images/easy-p.svg" alt="payments">
+            </div>
+            <div class="space-y-1">
+              <h3 class="h5">Easy Payments</h3>
+              <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+            </div>
+          </div>
+          <div class="features-card flex">
+            <div class="icon-container">
+              <img src="images/data-s.svg" alt="payments">
+            </div>
+            <div class="space-y-1">
+              <h3 class="h5">Data Security</h3>
+              <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+            </div>
+          </div>
+          <div class="features-card flex">
+            <div class="icon-container">
+              <img src="images/cost-st.svg" alt="">
+            </div>
+            <div class="space-y-1">
+              <h3 class="h5">Cost Statistics</h3>
+              <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+            </div>
+          </div>
+          <div class="features-card flex">
+            <div class="icon-container">
+              <img src="images/support-24.svg" alt="">
+              
+            </div>
+            <div class="space-y-1">
+              <h3 class="h5">Support 24/7</h3>
+              <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+            </div>
+          </div>
+          <div class="features-card flex">
+            <div class="icon-container">
+              <img src="images/regular-c.svg" alt="">
+            </div>
+            <div class="space-y-1">
+              <h3 class="h5">Regular Cashback</h3>
+              <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+            </div>
+          </div>
+          <div class="features-card flex">
+            <div class="icon-container">
+              <img src="images/top-s.svg" alt="">
+            </div>
+            <div class="space-y-1">
+              <h3 class="h5">Top Standards</h3>
+              <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+      
+     </div>
+
+   </section>
+
+  </section>
+
+  <section aria-label="How Does It Work?" class="phone-section">
+    <div class="container-phone space-y-3">
+      <h2 class="h1">How Does It Work?</h2>
+    </div>
+    <div class="phone">
+      <div class="phone-image1">
+       <img src="images/iPhone 12 Pro.svg" alt="iphone">
+      </div>
+      <div class="phone-image2">
+        <img src="images/iPhone 12 Pro (1).svg" alt="iphone">
+      </div>
+      <div class="phone-image3">
+        <img src="images/Change This.svg" alt="iphone">
+      </div>
+    </div>
+    <div class="text-2">
+      <h3 class ="h2">Latest transaction history</h3>
+      <p>Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis tristique quisque hac in consectetur condimentum. </p>
+    </div>
+  </section>
+
+
+
+  
+
+    <section class="section space-y-2">
+      <div class="text">
+        <h6 class="h5">Make your money transfer simple and clear</h6>
+        <ul>
+
+          <li>
+
+            <div class="bx">
+              <img src="images/bx-check-circle.svg" alt="">
+            </div>
+             <p>Banking transactions are free for you</p>
+          </li>
+          <li>
+            <div class="bx">
+              <img src="images/bx-check-circle.svg" alt="">
+            </div>
+          <p>No monthly cash commission</p>
+        </li>
+        <li>
+
+          <div class="bx">
+            <img src="images/bx-check-circle.svg" alt="">
+           </div>
+           <p> Manage payments and transactions online</p>
+        </li>
+      </ul>
+      </div>
+      <div class="image-h">
+        <img src="images/image-h.svg" alt="image">
+      </div>
+
+      </div>
+
+      <div>
+        <a href="#" class="btn-learn-more"> Learn More
+        <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+
+  
+  <section>
+    <div class="container-img space-y-2">
+      <div class="img-image">
+        <img src="images/image (8).svg" alt="image">
+      </div>
+  
+      <div class="text">
+        <h6 class="h5">Receive payment from international bank details</h6>
+
+        <div class="icons">
+          <img src="images/icon-11.svg" alt="payment">
+          <img src="images/icon-22.svg" alt="payment">
+        </div>
+
+          <div class="data">
+          <p>Manage your payments online. Mollis congue egestas egestas fermentum fames.</p>
+          <p>A elementur and imperdiet enim, pretium etiam facilisi aenean quam mauris.</p>
+          
+            
+          
+          </div>
+           <a href="#" class="btn-learn-more"> Learn More
+            <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+        
+
+        
+    
+      </div>
+        
+    
+        
+      </div>
+    </div>
+
+    
+  </section>
+
+  <section class="testimonials-section space-y-2">
+    <div class="container-testimonial">
+      <div class="h2">
+        <h3>Clients are Loving Our App</h3>
+      </div>
+
+      <div class="testimonials-container">
+    
+
+        <div class="testimonials">
+          
+            <img class="quote-icon" src="images/quotes.svg" alt="quotes">
+          <img class="rating-icon" src="images/rating.svg" alt="rating">
+          <p>Sit pretium aliquam tempor, orci dolor sed maecenas rutrum sagittis. Laoreet posuere rhoncus, egestas lacus, egestas justo aliquam vel. Nisi vitae lectus hac hendrerit. Montes justo turpis sit amet.</p>
+          <div class="author">
+           <img src="images/author-1.svg" alt="author">
+          <div class="author-info">
+          <h5>Fannie Summers</h5>
+          <p>Designer</p>
+          </div>
+        </div>
+        
+      </div>
+
+      
+
+        <div class="testimonials space-y-2">
+          <img class="quote-icon" src="images/quotes.svg" alt="quotes">
+          <img class="rating-icon" src="images/rating-2.svg" alt="rating">
+          <p>Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor. Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet. Dictum pretium dolor tincidunt egestas eget nunc.</p>
+          <div class="author">
+          <img src="images/author-2.svg" alt="author">
+          <div class="author-info">
+            <h5>Albert Flores</h5>
+            <p>Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+   </div>
+
+  </section>
+
+  <div class="responsive-container">
+    <section class="FAQ-laptop space-y-2">
+    
+      <div class="text">
+        <div>
+          <h3 class="h2">Any questions?Check out the FAQs</h3>
+        </div>
+        <div>
+          <p class="parag">Still have unanswered questions and need to get in touch?</p>
+        </div>
+
+        
+        
+       <div class="contact">
+        <div class="contact-1">
+          <img class="contact-img" src="images/contact-icon1.svg" alt="contact">
+         <p>Still have questions?</p>
+  
+         <a href="#" class="btn-learn-more"> Contact us
+          <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+  
+       <div class="contact-2">
+        <img class="contact-img" src="images/contact-icon2.svg" alt="contact">
+        <p>Don't like phone calls?</p>
+  
+        <a href="#" class="btn-learn-more"> Contact us
+          <i class="fas fa-arrow-right"></i>
+          </a>
+      </div>
+  
+    </div>
+    
+  
+   
+  </section>
+
+  <section class="FAQ-section">
+    <div class="container-FAQ space-y-2">
+      <h3 class="h2"> Any question? Check out the FAQs</h3>
+      <p>Still have unanswered quetions and need to get in touch?</p>
+    </div>
+
+    <div class="information">
+      <h3 class="h4"> Is any my personal information stored in the App?</h3>
+      <div class="info-btn-1">
+        <img src="images/button-btn.svg" alt="button">
+      </div>
+      <div class="check-btn-1">
+        <img src="images/check-btn.svg" alt="check-btn">
+      </div>
+    </div>
+        <div class="parag-1">
+          <p>Nunc duis id aenean gravida tincidunt eu, tempor
+            ullamcorper. Viverra aliquam arcu, viverra et,
+            cursus. Aliquet pretium cursus adipiscing gravida
+            et consequat lobortis arcu velit. Nibh pharetra
+            fermentum duis accumsan lectus non. Massa
+            cursus molestie lorem scelerisque pellentesque.
+            Nisi, enim, arcu purus gravida adipiscing euismod
+            montes, duis egestas. Vehicula eu etiam quam
+            tristique tincidunt suspendisse ut consequat.</p>
+          <p>Ornare senectus fusce dignissim ut. Integer
+            consequat in eu tortor, faucibus et lacinia
+            posuere. Turpis sit viverra lorem suspendisse
+            lacus aliquam auctor vulputate. Quis egestas
+            aliquam nunc purus lacus, elit leo elit facilisi.
+            Dignissim amet adipiscing massa integer.</p>
+        </div>
+          <div class="check-out">
+              <div>
+                <h5 class="h4">What formats can I download my transaction history in?</h5>
+                <div class="check-btn">
+                    <img src="images/check-btn.svg" alt="check-btn">
+                </div>
+              </div>
+        
+           
+              <div>
+                <h3 class="h4">Can I schedule future transfers?</h3>
+                <div class="info-btn-2">
+                  <img src="images/button-btn.svg" alt="button">
+                </div>
+                 <div class="check-btn1-3">
+                   <img src="images/check-btn.svg" alt="check-btn">
+                 </div>     
+                 
+
+              </div>
+               
+                   <p class="prg"> Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+               
+            
+              <div>
+                <h3 class="h4">When can I use Banking App services?</h3>
+                <div class="check-btn">
+                    <img src="images/check-btn.svg" alt="check-btn">
+                </div>
+              </div>
+        
+            <div class="check-out-4">
+                <h3 class="h4">Can I create my own password that is easy for me to remember?</h3>
+                <div class="check-btn">
+                    <img src="images/check-btn.svg" alt="check-btn">
+                </div>
+            </div>
+        
+            <div class="check-out-5">
+                <h3 class="h4">What happens if I forget or lose my password?</h3>
+                <div class="check-btn">
+                    <img src="images/check-btn.svg" alt="check-btn">
+                </div>
+            </div>
+        </div>
+    <div class="contact">
+      <div class="contact-1">
+        <img class="contact-img" src="images/contact-icon1.svg" alt="contact">
+       <p>Still have questions?</p>
+
+       <a href="#" class="btn-learn-more"> Contact us
+        <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+     <div class="contact-2">
+      <img class="contact-img" src="images/contact-icon2.svg" alt="contact">
+      <p>Don't like phone calls?</p>
+
+      <a href="#" class="btn-learn-more"> Contact us
+        <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+
+  </div>
+</section>
+  </div>
+
+<section>
+  <div class="contact-btn">
+    <a href="#" class="btn-contact"> Contact us</a>
+    
+  </div>
+</section>
+
+  <section class="subscribe space-y-2">
+
+    <div class="notification">
+      <img class="icon-n" src="images/notification-icon-1.svg fill.svg" alt="notification">
+      <h5 class="h4">Subscribe to our newsletter </h5>
+    </div>
+      
+     
+    <div class="email-subscribe-container">
+      
+      <div class="email-input-box">
+        <img class="icon-img" src="images/Icon (5).svg" alt="email">
+        <input type="email" placeholder="Your email" class="email-input"> 
+      </div>
+      <button class="subscribe-btn">Subscribe</button>
+    </div>
+    
+
+  </section>
+
+  </main> 
+
+<footer class="footer">
+    <p class="p">© 2024 Silicon. All rights reserved. Credit MadrasThemes</p>
+  </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+    
+</body>
+</html>
